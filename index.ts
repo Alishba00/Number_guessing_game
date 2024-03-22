@@ -12,7 +12,7 @@ const answer = await inquirer.prompt([{
 ]);
  
 if(answer.userguessnumber === randomNumber){
-    console.log(chalk.greenBright.bgCyanBright.bold("Congratulation!🥳 you guessed a right number."));
+    console.log(chalk.greenBright.bgCyanBright.bold("Congratulation! you guessed a right number."));
 } else{
-    console.log(chalk.bgGreen.yellowBright.bold("OPPS!😑 You guessed a wrong number."));
+    console.log(chalk.bgGreen.yellowBright.bold("OPPS! You guessed a wrong number."));
 }
