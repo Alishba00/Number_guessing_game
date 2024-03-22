@@ -9,10 +9,10 @@
   },
   "name": "a5na3_number_guessing_game",
   "description": "This is number guessing game.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "type":"module",
-  "bin":"index.js",
+  "type": "module",
+  "bin": "index.js",
   "publishConfig": {
     "access": "public"
   },
